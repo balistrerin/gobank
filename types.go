@@ -10,6 +10,8 @@ type Account struct {
 	Balance   int64  `json"balance"`
 }
 
+//newAcount
+
 func NewAccount(firstName, lastName string) *Account {
 	return &Account{
 		Id:        rand.Intn(10000),

@@ -6,6 +6,8 @@ import (
 	_ "github.com/lib/pq"
 )
 
+//Storage interface
+
 type Storage interface {
 	CreateAccount(*Account) error
 	DeleteAccount(int) error

@@ -12,6 +12,7 @@ func main() {
 	}
 
 	fmt.Printf("%+v\n", store)
+	//newline
 
 	server := NewAPIServer(":3000", store)
 	server.Run()
